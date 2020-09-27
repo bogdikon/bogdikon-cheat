@@ -4,7 +4,7 @@
 	"author": "Obito",
 	"contact": "http://steamcommunity.com/id/bogdikonpro",
 	"color": "58 1 65",
-	"version": "1.5",
+	"version": "1.7.1",
 	"priority": 0,
 	"hooks": [
 		{
