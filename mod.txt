@@ -1,0 +1,48 @@
+{
+	"name": "Ультра супер мега чит (OBITO)",
+	"description": "УЛЬТРА СУПЕР МЕГА СУПЕР ПУПЕР ЧИТЫ!!!!!!!!!!!!!!!! :)",
+	"author": "Obito",
+	"contact": "http://steamcommunity.com/id/bogdikonpro",
+	"color": "58 1 65",
+	"version": "1.5",
+	"priority": 0,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/chatmanager",
+			"script_path": "lua/godoff.lua"
+		},
+		{
+			"hook_id": "lib/managers/chatmanager",
+			"script_path": "lua/god.lua"
+		}
+	],
+	"keybinds": [
+		{
+			"keybind_id": "giveMoney",
+			"name": "Денежное меню",
+			"description": "Читы на деньги",
+			"script_path": "lua/money.lua",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "godMode",
+			"name": "Бессмертие (ON)",
+			"description": "Включает бессмертие (ТОЛЬКО ХОСТ)",
+			"script_path": "lua/god.lua",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "godModeOff",
+			"name": "Бессмертие (OFF)",
+			"description": "Выключает бессмертие (ТОЛЬКО ХОСТ)",
+			"script_path": "lua/godoff.lua",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		}
+	]
+}
